@@ -132,21 +132,30 @@ a {
   margin: 0 0 20px;
 }
 
+.hero-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
 .hero h1 {
   font-family: var(--sans);
   font-weight: 800;
-  font-size: clamp(64px, 13vw, 140px);
+  font-size: clamp(48px, 9vw, 100px);
   line-height: 0.95;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  margin: 0 0 28px;
+  margin: 0;
 }
 
-.hero p {
-  font-size: 18px;
+.hero-side-text {
+  font-size: 15px;
   color: var(--muted);
-  max-width: 46ch;
-  margin: 0;
+  max-width: 28ch;
+  text-align: right;
+  margin: 10px 0 0;
+  flex-shrink: 0;
 }
 
 /* ---------- Section headings ---------- */
@@ -426,6 +435,9 @@ a {
   .nav-links a::after { display: none; }
 
   .nav-toggle { display: block; }
+
+  .hero-row { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .hero-side-text { text-align: left; max-width: 100%; margin-top: 0; }
 
   .project-grid { grid-template-columns: 1fr; gap: 48px; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
