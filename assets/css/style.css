@@ -62,9 +62,14 @@ a {
 }
 
 .nav-logo {
-  font-family: var(--serif);
-  font-size: 19px;
-  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 28px;
+  width: auto;
+  display: block;
 }
 
 .nav-links {
