@@ -64,17 +64,17 @@ a {
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 2px;
 }
 
 .logo-mark {
-  height: 30px;
+  height: 38px;
   width: auto;
   display: block;
 }
 
 .logo-img {
-  height: 34px;
+  height: 42px;
   width: auto;
   display: block;
 }
