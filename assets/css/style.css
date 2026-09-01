@@ -295,7 +295,7 @@ a {
 }
 
 .about-photo::after {
-  content: 'Portret';
+  content: 'Portrait';
   position: absolute;
   inset: 0;
   display: flex;
