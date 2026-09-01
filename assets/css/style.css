@@ -64,6 +64,13 @@ a {
 .nav-logo {
   display: flex;
   align-items: center;
+  gap: 12px;
+}
+
+.logo-mark {
+  height: 24px;
+  width: auto;
+  display: block;
 }
 
 .logo-img {
