@@ -62,14 +62,9 @@ a {
 }
 
 .nav-logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo-img {
-  height: 100px;
-  width: auto;
-  display: block;
+  font-family: 'Myanmar Khyay', var(--sans);
+  font-size: 19px;
+  letter-spacing: 0.01em;
 }
 
 .nav-links {
@@ -81,9 +76,8 @@ a {
 }
 
 .nav-links a {
-  font-family: 'Kanit', var(--sans);
-  font-weight: 600;
-  font-size: 13px;
+  font-family: 'Myanmar Khyay', var(--sans);
+  font-size: 15px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   position: relative;
