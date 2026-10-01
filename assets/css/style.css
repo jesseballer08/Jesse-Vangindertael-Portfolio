@@ -158,6 +158,22 @@ a {
   flex-shrink: 0;
 }
 
+/* ---------- Outro wordmark ---------- */
+
+.outro {
+  padding: 40px 0 80px;
+}
+
+.outro-title {
+  font-family: var(--sans);
+  font-weight: 800;
+  font-size: clamp(48px, 9vw, 100px);
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
 /* ---------- Section headings ---------- */
 
 .section-head {
