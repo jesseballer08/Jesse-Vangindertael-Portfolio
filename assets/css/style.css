@@ -389,9 +389,94 @@ a {
 
 /* ---------- Footer ---------- */
 
+.subscribe {
+  border-top: 1px solid var(--line);
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.subscribe-text {
+  font-size: 20px;
+  max-width: 32ch;
+  margin: 0;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.subscribe-form input {
+  font-family: var(--sans);
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+  padding: 8px 0;
+  width: 240px;
+  outline: none;
+}
+
+.subscribe-form input::placeholder {
+  color: var(--muted);
+}
+
+.subscribe-form input:focus {
+  border-bottom-color: var(--fg);
+}
+
+.subscribe-form button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--fg);
+  white-space: nowrap;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
-  padding: 40px 0;
+  padding: 60px 0 40px;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 16px 64px;
+  justify-content: start;
+  margin-bottom: 48px;
+}
+
+.footer-columns ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-columns a {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.footer-columns a:hover {
+  color: var(--accent);
 }
 
 .footer-row {
@@ -440,6 +525,12 @@ a {
   .hero-side-text { text-align: left; max-width: 100%; margin-top: 0; }
 
   .project-grid { grid-template-columns: 1fr; gap: 48px; }
+
+  .subscribe { flex-direction: column; align-items: flex-start; }
+  .subscribe-form { width: 100%; }
+  .subscribe-form input { flex: 1; width: auto; }
+
+  .footer-columns { grid-template-columns: repeat(2, auto); gap: 24px 48px; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .contact-grid { grid-template-columns: 1fr 1fr; }
   .footer-row { flex-direction: column; gap: 16px; align-items: flex-start; }
