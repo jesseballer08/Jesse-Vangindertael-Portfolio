@@ -537,27 +537,27 @@ a {
 /* ---------- Project process steps ---------- */
 
 .process {
-  padding: 90px 0 120px;
+  padding: 100px 0 140px;
 }
 
 .process-eyebrow {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--muted);
-  margin: 0 0 56px;
+  margin: 0 0 64px;
 }
 
 .process-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  column-gap: 48px;
+  column-gap: 64px;
   border-top: 1px solid var(--line);
 }
 
 .process-step {
   display: block;
-  padding: 48px 0 0;
+  padding: 56px 0 0;
   border-right: 1px solid var(--line);
   color: var(--fg);
 }
@@ -570,27 +570,29 @@ a {
   display: block;
   font-family: var(--sans);
   font-weight: 800;
-  font-size: 40px;
+  font-size: 48px;
   color: var(--accent);
   line-height: 1;
-  margin-bottom: 64px;
+  margin-bottom: 80px;
 }
 
 .process-step h3 {
   font-family: var(--sans);
   font-weight: 700;
-  font-size: 15px;
+  font-size: 16px;
   margin: 0 0 4px;
 }
 
 .process-subtitle {
   font-size: 13px;
   color: var(--muted);
-  margin: 0 0 28px;
+  margin: 0 0 32px;
 }
 
 .process-thumb {
   position: relative;
+  width: 100%;
+  margin: 0 auto;
   aspect-ratio: 1 / 1;
   border-radius: 4px;
   overflow: hidden;
