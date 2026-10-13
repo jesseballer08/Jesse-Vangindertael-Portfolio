@@ -551,19 +551,23 @@ a {
 .process-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  column-gap: 64px;
   border-top: 1px solid var(--line);
 }
 
 .process-step {
   display: block;
-  padding: 56px 0 0;
+  padding: 56px 32px 0;
   border-right: 1px solid var(--line);
   color: var(--fg);
 }
 
+.process-step:first-child {
+  padding-left: 0;
+}
+
 .process-step:last-child {
   border-right: none;
+  padding-right: 0;
 }
 
 .process-number {
