@@ -556,7 +556,7 @@ a {
 
 .process-step {
   display: block;
-  padding: 56px 28px 120px;
+  padding: 56px 28px 180px;
   border-right: 1px solid var(--line);
   color: var(--fg);
 }
@@ -572,7 +572,7 @@ a {
   font-size: 48px;
   color: var(--accent);
   line-height: 1;
-  margin-bottom: 140px;
+  margin-bottom: 190px;
 }
 
 .process-step h3 {
