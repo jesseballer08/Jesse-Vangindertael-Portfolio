@@ -537,7 +537,7 @@ a {
 /* ---------- Project process steps ---------- */
 
 .process {
-  padding: 80px 0 100px;
+  padding: 90px 0 120px;
 }
 
 .process-eyebrow {
@@ -545,53 +545,53 @@ a {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--muted);
-  margin: 0 0 40px;
+  margin: 0 0 56px;
 }
 
 .process-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  column-gap: 48px;
   border-top: 1px solid var(--line);
 }
 
 .process-step {
   display: block;
-  padding: 32px 24px 0 0;
+  padding: 48px 0 0;
   border-right: 1px solid var(--line);
   color: var(--fg);
 }
 
 .process-step:last-child {
   border-right: none;
-  padding-right: 0;
 }
 
 .process-number {
   display: block;
   font-family: var(--sans);
   font-weight: 800;
-  font-size: 34px;
+  font-size: 40px;
   color: var(--accent);
   line-height: 1;
-  margin-bottom: 40px;
+  margin-bottom: 64px;
 }
 
 .process-step h3 {
   font-family: var(--sans);
   font-weight: 700;
-  font-size: 14px;
-  margin: 0 0 2px;
+  font-size: 15px;
+  margin: 0 0 4px;
 }
 
 .process-subtitle {
   font-size: 13px;
   color: var(--muted);
-  margin: 0 0 20px;
+  margin: 0 0 28px;
 }
 
 .process-thumb {
   position: relative;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   border-radius: 4px;
   overflow: hidden;
   background: var(--line);
@@ -856,10 +856,8 @@ a {
   .footer-top { flex-direction: column; gap: 24px; }
   .footer-columns { grid-template-columns: repeat(2, auto); gap: 24px 48px; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
-  .process-grid { grid-template-columns: repeat(2, 1fr); border-top: none; }
-  .process-step { border-right: none; border-top: 1px solid var(--line); padding: 32px 0 0; margin-bottom: 0; }
-  .process-step:nth-child(odd) { padding-right: 20px; }
-  .process-step:nth-child(even) { padding-left: 20px; }
+  .process-grid { grid-template-columns: repeat(2, 1fr); border-top: none; column-gap: 32px; row-gap: 48px; }
+  .process-step { border-right: none; border-top: 1px solid var(--line); padding: 40px 0 0; margin-bottom: 0; }
   .contact-grid { grid-template-columns: 1fr 1fr; }
   .footer-row { flex-direction: column; gap: 16px; align-items: flex-start; }
 }
@@ -868,6 +866,4 @@ a {
   .contact-grid { grid-template-columns: 1fr; }
   .hero { padding: 100px 0 60px; }
   .process-grid { grid-template-columns: 1fr; }
-  .process-step:nth-child(odd),
-  .process-step:nth-child(even) { padding-left: 0; padding-right: 0; }
 }
