@@ -551,7 +551,6 @@ a {
 .process-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  border-top: 1px solid var(--line);
 }
 
 .process-step {
