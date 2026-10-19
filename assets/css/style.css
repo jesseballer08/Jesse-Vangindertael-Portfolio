@@ -633,7 +633,7 @@ a {
 .process-step {
   display: block;
   position: relative;
-  padding: 56px 64px 80px 28px;
+  padding: 56px 64px 140px 28px;
   border-right: 1px solid var(--line);
   color: var(--fg);
 }
@@ -649,7 +649,7 @@ a {
   font-size: 48px;
   color: var(--fg);
   line-height: 1;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .process-step h3 {
@@ -686,8 +686,8 @@ a {
 .process-explain {
   display: flex;
   align-items: flex-end;
-  min-height: 226px;
-  padding-bottom: 20px;
+  min-height: 280px;
+  padding-bottom: 28px;
   opacity: 0;
   transition: opacity 0.25s ease;
 }
