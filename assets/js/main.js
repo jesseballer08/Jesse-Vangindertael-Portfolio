@@ -18,28 +18,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
-
-// Custom play button for project videos
-document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('.project-video').forEach(function (wrap) {
-    var video = wrap.querySelector('video');
-    var playBtn = wrap.querySelector('.video-play');
-    if (!video || !playBtn) return;
-
-    playBtn.addEventListener('click', function () {
-      video.setAttribute('controls', '');
-      video.play();
-    });
-
-    video.addEventListener('play', function () {
-      wrap.classList.add('is-playing');
-    });
-    video.addEventListener('pause', function () {
-      wrap.classList.remove('is-playing');
-    });
-    video.addEventListener('ended', function () {
-      wrap.classList.remove('is-playing');
-      video.removeAttribute('controls');
-    });
-  });
-});
