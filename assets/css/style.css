@@ -632,7 +632,8 @@ a {
 
 .process-step {
   display: block;
-  padding: 56px 28px 80px;
+  position: relative;
+  padding: 56px 64px 80px 28px;
   border-right: 1px solid var(--line);
   color: var(--fg);
 }
@@ -652,10 +653,17 @@ a {
 }
 
 .process-step h3 {
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-50%) rotate(180deg);
+  writing-mode: vertical-rl;
   font-family: var(--sans);
   font-weight: 700;
-  font-size: 16px;
-  margin: 0 0 4px;
+  font-size: 26px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  margin: 0;
 }
 
 .process-subtitle {
@@ -939,6 +947,13 @@ a {
   }
   .video-quote p { font-size: clamp(24px, 6vw, 36px); }
   .process-step { border-right: none; border-top: 1px solid var(--line); padding: 40px 0 0; margin-bottom: 0; }
+  .process-step h3 {
+    position: static;
+    writing-mode: horizontal-tb;
+    transform: none;
+    font-size: 18px;
+    margin: 0 0 4px;
+  }
   .process-number { margin-bottom: 12px; }
   .process-explain { min-height: 0; opacity: 1; padding-bottom: 12px; }
   .contact-grid { grid-template-columns: 1fr 1fr; }
