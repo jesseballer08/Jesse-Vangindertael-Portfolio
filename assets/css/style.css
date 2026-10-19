@@ -143,7 +143,7 @@ a {
 
 .hero h1 {
   font-family: var(--sans);
-  font-weight: 800;
+  font-weight: 700;
   font-size: clamp(48px, 9vw, 100px);
   line-height: 0.95;
   letter-spacing: -0.01em;
