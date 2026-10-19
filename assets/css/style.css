@@ -659,6 +659,11 @@ a {
   object-fit: cover;
 }
 
+.project-video.is-portrait {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
 .video-caption {
   grid-area: caption;
   font-size: 13px;
