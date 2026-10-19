@@ -608,7 +608,7 @@ a {
   font-size: 13px;
   color: var(--muted);
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 /* ---------- Project process steps ---------- */
