@@ -654,9 +654,9 @@ a {
 
 .process-step h3 {
   position: absolute;
-  top: 20%;
+  top: 56px;
   right: 14px;
-  transform: translateY(-50%) rotate(180deg);
+  transform: rotate(180deg);
   writing-mode: vertical-rl;
   font-family: var(--sans);
   font-weight: 700;
