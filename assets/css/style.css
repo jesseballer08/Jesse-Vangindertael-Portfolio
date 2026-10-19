@@ -613,7 +613,8 @@ a {
   background: #000;
 }
 
-.project-video video {
+.project-video video,
+.project-video img {
   width: 100%;
   display: block;
 }
@@ -624,6 +625,16 @@ a {
   color: var(--muted);
   margin: 0;
   text-align: left;
+}
+
+.video-caption a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.video-caption a:hover {
+  color: var(--fg);
 }
 
 /* ---------- Project process steps ---------- */
