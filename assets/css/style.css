@@ -654,7 +654,7 @@ a {
 
 .process-step h3 {
   position: absolute;
-  top: 50%;
+  top: 20%;
   right: 14px;
   transform: translateY(-50%) rotate(180deg);
   writing-mode: vertical-rl;
@@ -664,12 +664,6 @@ a {
   letter-spacing: 0.02em;
   white-space: nowrap;
   margin: 0;
-}
-
-.process-subtitle {
-  font-size: 13px;
-  color: var(--muted);
-  margin: 0 0 32px;
 }
 
 .process-thumb {
