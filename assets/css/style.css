@@ -658,10 +658,10 @@ a {
   right: 14px;
   transform: rotate(180deg);
   writing-mode: vertical-rl;
-  font-family: var(--sans);
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.02em;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0;
   white-space: nowrap;
   margin: 0;
 }
