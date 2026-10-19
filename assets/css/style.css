@@ -564,18 +564,17 @@ a {
 .video-split {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  align-items: stretch;
-}
-
-.video-split-media {
-  width: 100%;
+  grid-template-areas:
+    "video quote"
+    "caption .";
+  column-gap: 64px;
+  row-gap: 20px;
 }
 
 .video-quote {
+  grid-area: quote;
   display: flex;
   align-items: center;
-  height: 100%;
   margin: 0;
   padding: 0;
   border: none;
@@ -585,18 +584,17 @@ a {
   margin: 0;
   font-family: var(--sans);
   font-weight: 700;
-  font-size: clamp(32px, 4.6vw, 68px);
+  font-size: clamp(34px, 5.6vw, 84px);
   line-height: 1.08;
   letter-spacing: -0.01em;
   color: var(--fg);
 }
 
 .project-video {
+  grid-area: video;
   position: relative;
-  max-width: 640px;
   border-radius: 4px;
   overflow: hidden;
-  margin: 0 auto 20px;
   background: #000;
 }
 
@@ -636,6 +634,7 @@ a {
 }
 
 .video-caption {
+  grid-area: caption;
   font-size: 13px;
   color: var(--muted);
   margin: 0;
@@ -963,7 +962,11 @@ a {
   .footer-columns { grid-template-columns: repeat(2, auto); gap: 24px 48px; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .process-grid { grid-template-columns: repeat(2, 1fr); border-top: none; column-gap: 32px; row-gap: 48px; }
-  .video-split { grid-template-columns: 1fr; gap: 32px; }
+  .video-split {
+    grid-template-columns: 1fr;
+    grid-template-areas: "video" "quote" "caption";
+    gap: 24px;
+  }
   .video-quote p { font-size: clamp(24px, 6vw, 36px); }
   .process-step { border-right: none; border-top: 1px solid var(--line); padding: 40px 0 0; margin-bottom: 0; }
   .process-number { margin-bottom: 12px; }
