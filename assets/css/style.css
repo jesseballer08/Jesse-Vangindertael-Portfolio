@@ -563,9 +563,10 @@ a {
 
 .project-video {
   position: relative;
+  max-width: 640px;
   border-radius: 4px;
   overflow: hidden;
-  margin: 0 0 20px;
+  margin: 0 auto 20px;
   background: #000;
 }
 
@@ -608,6 +609,7 @@ a {
   font-size: 13px;
   color: var(--muted);
   margin: 0;
+  text-align: center;
 }
 
 /* ---------- Project process steps ---------- */
