@@ -569,7 +569,7 @@ a {
   font-family: var(--sans);
   font-weight: 800;
   font-size: 48px;
-  color: var(--accent);
+  color: var(--fg);
   line-height: 1;
   margin-bottom: 24px;
 }
