@@ -633,7 +633,7 @@ a {
 .process-step {
   display: block;
   position: relative;
-  padding: 56px 64px 140px 28px;
+  padding: 56px 64px 180px 28px;
   border-right: 1px solid var(--line);
   color: var(--fg);
 }
@@ -693,7 +693,7 @@ a {
 .process-explain {
   display: flex;
   align-items: flex-end;
-  min-height: 280px;
+  min-height: 380px;
   padding-bottom: 28px;
   opacity: 0;
   transition: opacity 0.25s ease;
