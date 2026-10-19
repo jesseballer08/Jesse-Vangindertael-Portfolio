@@ -258,7 +258,7 @@ a {
 .project-thumb.is-logo img {
   box-sizing: border-box;
   object-fit: contain;
-  padding: 56px;
+  padding: 28px;
 }
 
 .project-card:hover .project-thumb img {
