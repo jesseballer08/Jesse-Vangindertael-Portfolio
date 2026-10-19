@@ -693,7 +693,8 @@ a {
 .process-explain {
   display: flex;
   align-items: flex-end;
-  min-height: 380px;
+  height: 380px;
+  overflow: hidden;
   padding-bottom: 28px;
   opacity: 0;
   transition: opacity 0.25s ease;
@@ -956,7 +957,7 @@ a {
     margin: 0 0 4px;
   }
   .process-number { margin-bottom: 12px; }
-  .process-explain { min-height: 0; opacity: 1; padding-bottom: 12px; }
+  .process-explain { height: auto; min-height: 0; overflow: visible; opacity: 1; padding-bottom: 12px; }
   .contact-grid { grid-template-columns: 1fr 1fr; }
   .footer-row { flex-direction: column; gap: 16px; align-items: flex-start; }
 }
