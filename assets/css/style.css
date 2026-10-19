@@ -619,6 +619,11 @@ a {
   display: block;
 }
 
+.project-video img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .video-caption {
   grid-area: caption;
   font-size: 13px;
