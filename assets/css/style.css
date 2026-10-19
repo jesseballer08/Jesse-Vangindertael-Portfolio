@@ -187,16 +187,18 @@ a {
   margin: 0 0 48px;
 }
 
-.section-head h2 {
-  font-family: var(--serif);
-  font-weight: 400;
-  font-size: 28px;
+.items-count {
+  font-family: var(--sans);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
   margin: 0;
 }
 
-.section-head span {
-  color: var(--muted);
-  font-size: 14px;
+.items-count strong {
+  color: var(--fg);
+  font-weight: 700;
 }
 
 /* ---------- Project grid ---------- */
