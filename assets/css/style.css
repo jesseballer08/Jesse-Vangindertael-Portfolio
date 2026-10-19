@@ -214,7 +214,7 @@ a {
 
 .project-thumb {
   position: relative;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   border-radius: 4px;
   overflow: hidden;
   background: linear-gradient(135deg, #e7e3da 0%, #d8d3c6 60%, #cdc7b8 100%);
