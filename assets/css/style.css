@@ -674,6 +674,13 @@ a {
   border-radius: 4px;
   overflow: hidden;
   background: var(--line);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.process-step:hover .process-thumb,
+.process-step:focus-within .process-thumb {
+  opacity: 1;
 }
 
 .process-thumb img {
