@@ -633,7 +633,7 @@ a {
 .process-step {
   display: block;
   position: relative;
-  padding: 56px 64px 180px 28px;
+  padding: 56px 64px 100px 28px;
   border-right: 1px solid var(--line);
   color: var(--fg);
 }
