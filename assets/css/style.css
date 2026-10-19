@@ -565,7 +565,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 64px;
-  align-items: center;
+  align-items: stretch;
 }
 
 .video-split-media {
@@ -573,6 +573,9 @@ a {
 }
 
 .video-quote {
+  display: flex;
+  align-items: center;
+  height: 100%;
   margin: 0;
   padding: 0;
   border: none;
@@ -582,8 +585,8 @@ a {
   margin: 0;
   font-family: var(--sans);
   font-weight: 700;
-  font-size: clamp(28px, 3.2vw, 44px);
-  line-height: 1.15;
+  font-size: clamp(32px, 4.6vw, 68px);
+  line-height: 1.08;
   letter-spacing: -0.01em;
   color: var(--fg);
 }
