@@ -206,7 +206,7 @@ a {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 56px 40px;
+  gap: 56px 12px;
   padding-bottom: 100px;
 }
 
@@ -214,7 +214,7 @@ a {
 
 .project-thumb {
   position: relative;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 3;
   border-radius: 4px;
   overflow: hidden;
   background: linear-gradient(135deg, #e7e3da 0%, #d8d3c6 60%, #cdc7b8 100%);
