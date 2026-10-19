@@ -522,16 +522,57 @@ a {
   margin: 0;
 }
 
+.video-section {
+  padding: 0 0 100px;
+}
+
 .project-video {
+  position: relative;
   border-radius: 4px;
   overflow: hidden;
-  margin: 20px 0 80px;
+  margin: 0 0 20px;
   background: #000;
 }
 
 .project-video video {
   width: 100%;
   display: block;
+}
+
+.video-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.video-play svg {
+  margin-left: 3px;
+}
+
+.video-play:hover {
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.project-video.is-playing .video-play {
+  display: none;
+}
+
+.video-caption {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0;
 }
 
 /* ---------- Project process steps ---------- */
