@@ -798,6 +798,8 @@ a {
 
 .highlight-title {
   font-family: var(--sans);
+  font-weight: 700;
+  text-transform: uppercase;
   font-size: 18px;
   flex: 1;
 }
